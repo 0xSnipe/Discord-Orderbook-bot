@@ -1,0 +1,62 @@
+##
+# Configuration file for Discord Orderbook Bot,
+# for the fork by AltcoinBaggins
+##
+
+## Market-related settings
+[market]
+
+# The first of the currency pair
+currency = vls
+
+# The second of the currency pair
+currency2 = sats
+
+# Maximum number of orders per Discord user
+maxorders = 2
+
+# Set url to *V1* Coinmarketcap API for this coin
+# in order to use !price command
+cmc_api_url = 
+
+## Bot-specific settings
+[bot]
+
+# Prefix that bot commands start with
+prefix = !
+
+# Commands that are supported also without prefix
+allow_no_prefix = wtb
+	wts
+
+# Name of the bot
+bot_name = Mudge
+
+# Short description of the bot
+bot_description = Veles Core OTC-Bot
+
+# Name of game in bot's presence status message, shown as eg. "Playing Mesh"
+presence_game = Mesh
+
+# A list of channels names or id's where the bot will accept commands. 
+# Add multiple values each on new line indented with at least one space,
+# eg. auth_channels = one
+#     two
+#     three
+#auth_channels = otc
+auth_channels = 
+
+# A list of discord accounts that are allowed to control privileged 
+# functionality of the bot.
+# Currently supported privileged commands: 
+#  !delegate ACCOUNT#ID COMMAND ARGS	# Runs COMMAND as user ACCOUNT#ID
+# Add multiple values each on new indented line,
+# eg. bot_masters = AltcoinBaggins#6959
+#	mdfkbtc#7980
+#	virtuado#5969
+bot_masters = 
+
+## Authentication tokens
+[secrets]
+# Your Discord bot auth token goes here 
+token = 

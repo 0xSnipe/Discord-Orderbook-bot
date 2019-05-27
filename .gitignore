@@ -1,0 +1,7 @@
+__pycache__
+.idea
+*.bak
+*.old
+venv
+venv2
+bot.conf
